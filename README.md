@@ -8,7 +8,6 @@ A small, production-style Python project that:
 
 > **No external API keys required.** The project runs offline using the included sample price data.  
 > You can replace the sample CSVs with your own historical prices.
-
 ---
 
 ## Quick Start (VS Code)
@@ -38,7 +37,6 @@ Open:
 
 ---
 
-## Try it
 
 ### Analyze the included sample portfolio
 ```bash
@@ -93,12 +91,6 @@ docker run -p 8000:8000 portfolio-risk-analyzer
 
 ---
 
-## Notes for your Resume
-- Emphasize end-to-end: data ingestion → risk metrics → scoring → REST API → containerization
-- Add CI later (GitHub Actions) if you want an extra polish
-
----
-
 ## Project Structure
 ```
 portfolio-risk-analyzer/
@@ -109,10 +101,3 @@ portfolio-risk-analyzer/
 ```
 
 ---
-
-## Next enhancements (if you want)
-- Add real market data ingestion (yfinance / polygon / alpha vantage)
-- Add persistence (SQLite) for analysis history
-- Add UI (Streamlit) for demos
-- Add model monitoring (drift, data quality checks)
-
